@@ -35,8 +35,8 @@ A machine learning project that classifies IMDb movie reviews as **positive** or
 
 1. Clone the repository
    ```
-   git clone https://github.com/<your-username>/Text_Classification.git
-   cd Text_Classification
+   git clone https://github.com/<your-username>/Movie-Review-Analysis.git
+   cd Movie-Review-Analysis
    ```
 2. Install the requirements
    ```
@@ -50,12 +50,12 @@ A machine learning project that classifies IMDb movie reviews as **positive** or
 The trained models are already included, so you don't need to train anything.
 
 ## Retraining the models
-Open `Sentiment_Analysis_IMDb.ipynb` in [Google Colab](https://colab.research.google.com), run all cells and upload `IMDB Dataset.csv` when asked. The notebook downloads three files (`tfidf_vectorizer.joblib`, `all_models.joblib`, `accuracies.joblib`). Put them in the project folder, replacing the old ones.
+Open `Movie_Sentiment_Analysis_IMDb.ipynb` in [Google Colab](https://colab.research.google.com), run all cells and upload `IMDB Dataset.csv` when asked. The notebook downloads three files (`tfidf_vectorizer.joblib`, `all_models.joblib`, `accuracies.joblib`). Put them in the project folder, replacing the old ones.
 
 ## Project structure
 ```
 ├── app.py                          # Streamlit app
-├── Sentiment_Analysis_IMDb.ipynb   # Colab notebook (EDA + training)
+├── Movie_Sentiment_Analysis_IMDb.ipynb   # Colab notebook (EDA + training)
 ├── IMDB Dataset.csv                # Dataset
 ├── tfidf_vectorizer.joblib         # Saved TF-IDF vectorizer
 ├── all_models.joblib               # Saved models
