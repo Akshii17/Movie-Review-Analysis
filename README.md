@@ -66,3 +66,6 @@ Open `Sentiment_Analysis_IMDb.ipynb` in [Google Colab](https://colab.research.go
 
 ## Tech stack
 Python, pandas, scikit-learn, matplotlib, seaborn, Streamlit
+
+## Working App
+https://movie-review-analysis-ml.streamlit.app
